@@ -14,9 +14,9 @@ It should be noted that the Symbols dataset contained pixel-by-pixel duplicated 
 
 These instructions will get you a copy of the project up and running on your own Colab notebook.
 
-The data preprocessing notebook, "ProjectPreprocessing.ipynb", takes the MNIST Digits dataset and the Symbols dataset and converts them into two csv files. These two files, "inverted_df" and "inverted_test_df" are the training and testing csv files that are used in the "FinalCopy.ipynb".
+The data preprocessing notebook, "SUM+MIT_Preprocessing.ipynb", takes the MNIST Digits dataset and the Symbols dataset and converts them into two csv files. These two files, "inverted_df" and "inverted_test_df" are the training and testing csv files that are used in the "FinalCopy.ipynb".
 
-You could run "ProjectPreprocessing.ipynb" and generate both "inverted_df" and "inverted_test_df" or you could use the copies we provided in this repo to simply run "FinalCopy.ipynb".
+You could run "SUM+MIT_Preprocessing.ipynb" and generate both "inverted_df" and "inverted_test_df" or you could use the copies we provided in this repo to simply run "FinalCopy.ipynb".
 
 In order to get a copy of either Colab notebook from this repo, simply click on the file, and click on "Open in Colab".
 
