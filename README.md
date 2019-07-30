@@ -6,7 +6,9 @@ The motivation behind this project was a personal one. Our team wanted to apply 
 
 ## Datasets Used
 
-We used the [MNIST dataset](https://www.kaggle.com/rakuraku678/mnist-60000-hand-written-number-images) for digits, and a [Kaggle dataset](https://www.kaggle.com/xainano/handwrittenmathsymbols) for symbols. The MNIST dataset contained 70,000 images of white digits written on a black background. The Symbols dataset contained 100,000 images of 82 different math symbols and the numbers 0 through 9.
+We used the [MNIST dataset](https://www.kaggle.com/rakuraku678/mnist-60000-hand-written-number-images) for digits, and a [Kaggle dataset](https://www.kaggle.com/xainano/handwrittenmathsymbols) for symbols. The MNIST dataset contained 70,000 images of white digits written on a black background. The Symbols dataset contained 100,000 images of 82 different math symbols and the numbers 0 through 9. 
+
+You can download the datasets from the links above in order to use them with the "SUM+MIT_Preprocessing.ipynb" notebook.
 
 It should be noted that the Symbols dataset contained pixel-by-pixel duplicated images which we removed. Thus, we ended up with ~82,000 symbols images.
 
