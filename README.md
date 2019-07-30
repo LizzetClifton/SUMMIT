@@ -14,9 +14,11 @@ It should be noted that the Symbols dataset contained pixel-by-pixel duplicated 
 
 These instructions will get you a copy of the project up and running on your own Colab notebook.
 
-The data preprocessing notebook, "SUM+MIT_Preprocessing.ipynb", takes the MNIST Digits dataset and the Symbols dataset and converts them into two csv files. The two files, "inverted_df.csv.zip" and "inverted_test_df.csv.zip" are zipped up versions of the training and testing csv files that are used in the "FinalCopy.ipynb".
+The data preprocessing notebook, "SUM+MIT_Preprocessing.ipynb", takes the MNIST Digits dataset and the Symbols dataset and converts them into two csv files. The two files, "inverted_df.csv.zip" and "inverted_test_df.csv.zip" are zipped up versions of the training and testing csv files that are used in the "SUM+MIT_Application.ipynb".
 
-You could run "SUM+MIT_Preprocessing.ipynb" and generate both "inverted_df" and "inverted_test_df" or you could unzip and use the copies we provided in this repo to simply run "FinalCopy.ipynb".
+The notebook entitled "SUM+MIT_Model.ipynb" shows the process of creating the Convolutional Neural Network and saves that trained model as "cnn.h5", which we have provided for you.
+
+You could run "SUM+MIT_Preprocessing.ipynb" and generate both "inverted_df" and "inverted_test_df" or you could unzip and use the copies we provided in this repo. Upload those two datafames and the "cnn.h5" model file to run "SUM+MIT_Application.ipynb".
 
 In order to get a copy of either Colab notebook from this repo, simply click on the file, and click on "Open in Colab".
 
@@ -26,7 +28,7 @@ Once you are in your copy, you can navigate to the left side of the page and ope
 
 ## Using SUM+MIT
 
-In order to use SUM+MIT, create your own copy of "FinalCopy.ipynb" and upload the necessary files. Then, follow the code. The section entitled "Upload your equation" will open up a camera in Colab, where you will be able to take a picture of your own equation.
+In order to use SUM+MIT, create your own copy of "SUM+MIT_Application.ipynb" and upload the necessary files. Then, follow the code. The section entitled "Upload your equation" will open up a camera in Colab, where you will be able to take a picture of your own equation.
 
 Continue following the code to the end, where you will arrive at your solution.
 
